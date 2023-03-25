@@ -18,8 +18,8 @@ export const GlobalStyles = createGlobalStyle`
         overflow-x: hidden;
     }
 
-    body, input, textarea, button {
-        all: 'unset';
+    body, input, textarea, button, a {
+        all: unset;
         font: 400 1rem "Inter", sans-serif;
     }
 `
