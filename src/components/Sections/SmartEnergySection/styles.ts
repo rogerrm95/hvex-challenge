@@ -47,17 +47,6 @@ export const Content = styled.div`
       flex-direction: column;
       gap: 1rem;
     }
-
-    li {
-      display: flex;
-      align-items: center;
-      gap: 2rem;
-      font-weight: 700;
-
-      svg {
-        color: ${(props) => props.theme.colors.blue500};
-      }
-    }
   }
 
   img {

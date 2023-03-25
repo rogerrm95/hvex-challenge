@@ -1,4 +1,8 @@
+import { theme } from '@/src/styles/theme'
 import { CheckCircle } from '@phosphor-icons/react'
+
+import { ListItem } from '../../ListItem'
+
 import { SectionContainer, Content } from './styles'
 
 export function SmartSection() {
@@ -24,30 +28,59 @@ export function SmartSection() {
           </p>
 
           <ul>
-            <li>
-              <CheckCircle size={20} weight="fill" />
+            <ListItem>
+              <CheckCircle
+                size={20}
+                weight="fill"
+                color={`${theme.colors.blue500}`}
+              />
               Monitoramento inteligente de ativos
-            </li>
-            <li>
-              <CheckCircle size={20} weight="fill" />
+            </ListItem>
+
+            <ListItem>
+              <CheckCircle
+                size={20}
+                weight="fill"
+                color={`${theme.colors.blue500}`}
+              />
               Melhoria dos indicadores de continuidade
-            </li>
-            <li>
-              <CheckCircle size={20} weight="fill" />
+            </ListItem>
+
+            <ListItem>
+              <CheckCircle
+                size={20}
+                weight="fill"
+                color={`${theme.colors.blue500}`}
+              />
               Comunicação Modular
-            </li>
-            <li>
-              <CheckCircle size={20} weight="fill" />
+            </ListItem>
+
+            <ListItem>
+              <CheckCircle
+                size={20}
+                weight="fill"
+                color={`${theme.colors.blue500}`}
+              />
               Monitoramento inteligente de ativos
-            </li>
-            <li>
-              <CheckCircle size={20} weight="fill" />
-              Business Inteligence
-            </li>
-            <li>
-              <CheckCircle size={20} weight="fill" />
+            </ListItem>
+
+            <ListItem>
+              <CheckCircle
+                size={20}
+                weight="fill"
+                color={`${theme.colors.blue500}`}
+              />
+              Business InteListItemgence
+            </ListItem>
+
+            <ListItem>
+              <CheckCircle
+                size={20}
+                weight="fill"
+                color={`${theme.colors.blue500}`}
+              />
               Redução de Perdas técnicas e Não técnicas
-            </li>
+            </ListItem>
           </ul>
         </article>
       </Content>
