@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 
 export const HeaderContainer = styled.header`
   position: sticky;
@@ -84,6 +84,17 @@ interface MenuDropdownProps {
   hasDropdownMenuOpen: boolean
 }
 
+const slideDown = keyframes({
+  from: {
+    transform: 'translateY(-10%)',
+    opacity: 0,
+  },
+  to: {
+    transform: 'translateY(0)',
+    opacity: 1,
+  },
+})
+
 export const MenuDropdown = styled.nav<MenuDropdownProps>`
   display: ${(props) => (props.hasDropdownMenuOpen ? 'flex' : 'none')};
   flex-direction: column;
@@ -95,6 +106,8 @@ export const MenuDropdown = styled.nav<MenuDropdownProps>`
 
   margin-top: 2rem;
   overflow: hidden;
+
+  animation: ${slideDown} 0.3s ease-in;
 
   a {
     position: relative;
