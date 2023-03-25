@@ -49,6 +49,7 @@ export const HeaderContainer = styled.header`
     flex-wrap: nowrap;
   }
 `
+// MOBILE VERSION //
 export const DropdownButton = styled.button`
   display: flex;
   justify-content: center;
@@ -161,6 +162,8 @@ export const MenuDropdown = styled.nav<MenuDropdownProps>`
     display: none;
   }
 `
+
+// DESKTOP VERSION //
 export const Navbar = styled.nav`
   width: 100%;
   display: flex;
