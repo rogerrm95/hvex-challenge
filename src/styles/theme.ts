@@ -8,6 +8,7 @@ export const theme = {
     blue700: '#1C2C44',
     blue500: '#036FC0',
     blue200: '#00B6DE',
+    blue100: '#52E0FF',
 
     white: '#FDFDFD',
   },
