@@ -1,5 +1,5 @@
 import { Button } from '../../Button'
-import { SectionContainer } from '../styles'
+import { SectionContainer } from './styles'
 
 export function HomeSection() {
   return (
