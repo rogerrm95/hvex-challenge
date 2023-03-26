@@ -3,6 +3,7 @@ import { FifthSection } from '../components/Sections/FifthSection'
 import { FourthSection } from '../components/Sections/FourthSection'
 import { HomeSection } from '../components/Sections/HomeSection'
 import { OmniTrafoSection } from '../components/Sections/OmniTrafoSection'
+import { SeventhSection } from '../components/Sections/SeventhSection'
 import { SixthSection } from '../components/Sections/SixthSection'
 import { SmartEnergySection } from '../components/Sections/SmartEnergySection'
 
@@ -30,6 +31,7 @@ export default function Home() {
       <SixthSection />
 
       {/* 7 - FAQ  */}
+      <SeventhSection />
 
       {/* 8 - FOOTER */}
     </HomeContainer>
