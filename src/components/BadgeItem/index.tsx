@@ -14,7 +14,11 @@ export function BadgeItem({
   return (
     <BadgeItemContainer>
       <div>
-        <img src={sourceImage} alt={descriptionImage} />
+        <img
+          src={sourceImage}
+          alt={descriptionImage}
+          title={descriptionImage}
+        />
       </div>
 
       <span>{text}</span>
