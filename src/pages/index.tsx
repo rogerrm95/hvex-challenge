@@ -1,6 +1,7 @@
 // Components //
 import { HomeSection } from '../components/Sections/HomeSection'
-import { SmartSection } from '../components/Sections/SmartEnergySection'
+import { OmniTrafoSection } from '../components/Sections/OmniTrafoSection'
+import { SmartEnergySection } from '../components/Sections/SmartEnergySection'
 
 import { HomeContainer } from '../styles/pages/home'
 
@@ -11,7 +12,10 @@ export default function Home() {
       <HomeSection />
 
       {/* 2 - SMART ENERGY */}
-      <SmartSection />
+      <SmartEnergySection />
+
+      {/* 3 - OMNI TRAFO */}
+      <OmniTrafoSection />
     </HomeContainer>
   )
 }
