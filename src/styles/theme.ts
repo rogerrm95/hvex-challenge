@@ -10,6 +10,8 @@ export const theme = {
     blue200: '#00B6DE',
     blue100: '#52E0FF',
 
+    gray100: '#F4F4F4',
+
     white: '#FDFDFD',
   },
 
