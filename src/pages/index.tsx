@@ -1,4 +1,5 @@
 // Components //
+import { FourthSection } from '../components/Sections/FourthSection'
 import { HomeSection } from '../components/Sections/HomeSection'
 import { OmniTrafoSection } from '../components/Sections/OmniTrafoSection'
 import { SmartEnergySection } from '../components/Sections/SmartEnergySection'
@@ -14,8 +15,11 @@ export default function Home() {
       {/* 2 - SMART ENERGY */}
       <SmartEnergySection />
 
-      {/* 3 - OMNI TRAFO */}
+      {/* 3 - OMNI TRAFO #1 */}
       <OmniTrafoSection />
+
+      {/* 4 - OMINI TRAFO #2 */}
+      <FourthSection></FourthSection>
     </HomeContainer>
   )
 }
