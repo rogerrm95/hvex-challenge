@@ -5,4 +5,8 @@ export const ListItemContainer = styled.li`
   align-items: center;
   gap: 2rem;
   font-weight: 700;
+
+  svg {
+    all: unset;
+  }
 `
