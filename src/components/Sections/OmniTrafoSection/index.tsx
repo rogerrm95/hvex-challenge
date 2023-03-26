@@ -1,3 +1,4 @@
+import { Card } from '../../Card'
 import { OmniTrafoContainer, Content } from './styles'
 
 export function OmniTrafoSection() {
@@ -22,25 +23,25 @@ export function OmniTrafoSection() {
         </article>
 
         <div className="box-card">
-          <div className="card">
+          <Card>
             <img src="/assets/renewable-energy.svg" alt="" />
             <p>Sistema de Proteção</p>
-          </div>
+          </Card>
 
-          <div className="card">
-            <img src="/assets/renewable-energy.svg" alt="" />
+          <Card className="card">
+            <img src="/assets/surface.svg" alt="" />
             <p>Integração de dados</p>
-          </div>
+          </Card>
 
-          <div className="card">
-            <img src="/assets/renewable-energy.svg" alt="" />
+          <Card className="card">
+            <img src="/assets/electrical-assets.svg" alt="" />
             <p>Gestão de Ativos Elétricos</p>
-          </div>
+          </Card>
 
-          <div className="card">
-            <img src="/assets/renewable-energy.svg" alt="" />
+          <Card className="card">
+            <img src="/assets/smart-communication.svg" alt="" />
             <p>Comunicação inteligente</p>
-          </div>
+          </Card>
         </div>
       </Content>
     </OmniTrafoContainer>
