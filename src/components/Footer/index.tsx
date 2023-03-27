@@ -7,11 +7,11 @@ import {
   YoutubeLogo,
 } from '@phosphor-icons/react'
 
-import { FooterSectionContainer, Bottom, Top, Content } from './styles'
+import { FooterContainer, Bottom, Top, Content } from './styles'
 
-export function FooterSection() {
+export function Footer() {
   return (
-    <FooterSectionContainer>
+    <FooterContainer>
       <Content>
         <Top>
           <Image
@@ -83,6 +83,6 @@ export function FooterSection() {
           <Link href="termos-de-uso">Termos de Uso</Link>
         </Bottom>
       </Content>
-    </FooterSectionContainer>
+    </FooterContainer>
   )
 }

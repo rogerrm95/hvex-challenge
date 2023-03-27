@@ -1,6 +1,5 @@
 // Components //
 import { FifthSection } from '../components/Sections/FifthSection'
-import { FooterSection } from '../components/Sections/FooterSection'
 import { FourthSection } from '../components/Sections/FourthSection'
 import { FirstSection } from '../components/Sections/FirstSection'
 import { ThirdSection } from '../components/Sections/ThirdSection'
@@ -33,9 +32,6 @@ export default function Home() {
 
       {/* 7 - FAQ  */}
       <SeventhSection />
-
-      {/* 8 - FOOTER */}
-      <FooterSection />
     </HomeContainer>
   )
 }

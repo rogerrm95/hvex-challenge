@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const FooterSectionContainer = styled.footer`
+export const FooterContainer = styled.footer`
   background-color: ${(props) => props.theme.colors.blue700};
   padding: 1rem;
   min-height: 323px;
