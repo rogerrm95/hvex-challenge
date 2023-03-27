@@ -27,17 +27,17 @@ export const Content = styled.div`
 
     h2,
     p {
-      color: ${(props) => props.theme.colors.blue700};
       text-align: center;
-      line-height: 160%;
     }
 
     h2 {
       font-size: ${(props) => props.theme.fontSizes.xl};
+      color: ${(props) => props.theme.colors.blue700};
     }
 
     p {
       font-size: ${(props) => props.theme.fontSizes.md};
+      line-height: 160%;
     }
 
     ul {
@@ -57,7 +57,7 @@ export const Content = styled.div`
   @media (min-width: 768px) {
     img {
       display: block;
-      width: 250px;
+      width: 300px;
     }
 
     article {
@@ -77,7 +77,7 @@ export const Content = styled.div`
   // LAPTOP //
   @media (min-width: 996px) {
     img {
-      width: 450px;
+      width: 500px;
       height: auto;
       object-fit: cover;
     }
@@ -86,7 +86,7 @@ export const Content = styled.div`
   // DESKTOP + //
   @media (min-width: 1196px) {
     article p {
-      max-width: 50%;
+      max-width: 75%;
     }
   }
 `

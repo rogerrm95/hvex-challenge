@@ -25,8 +25,8 @@ export function FirstSection() {
         <img
           src="/assets/devices.png"
           alt="Dispositivo"
-          title="Dispositivo"
-          aria-label="Dispositivo"
+          title="Dispositivo Omni Trafo"
+          aria-label="Dispositivo Omni Trafo"
         />
       </div>
     </SectionContainer>

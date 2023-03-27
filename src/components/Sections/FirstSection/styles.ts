@@ -80,9 +80,7 @@ export const SectionContainer = styled.section`
       display: inline-block;
       max-width: 250px;
       height: auto;
-      opacity: 0.5;
-
-      z-index: 99;
+      object-fit: cover;
     }
   }
 

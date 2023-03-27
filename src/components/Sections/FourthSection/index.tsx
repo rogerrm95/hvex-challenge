@@ -9,6 +9,7 @@ export function FourthSection() {
           src="/assets/devices.png"
           alt="Dispositivo"
           title="Dispositivo Omni Trafo"
+          aria-label="Dispositivo Omni Trafo"
         />
 
         <article>
