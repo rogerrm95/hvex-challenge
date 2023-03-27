@@ -7,9 +7,8 @@ export function SixthSection() {
     <SixthContainer>
       <Content>
         <h2>
-          Quer saber mais sobre como <br />
-          podemos te ajudar a melhorar a <br />
-          performance de seus ativos?
+          Quer saber mais sobre como podemos te ajudar a melhorar a performance
+          de seus ativos?
         </h2>
 
         <hr />

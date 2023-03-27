@@ -19,10 +19,7 @@ export function SecondSection() {
         />
 
         <article>
-          <h2>
-            Seja bem-vindo a era da <br />
-            energia inteligente
-          </h2>
+          <h2>Seja bem-vindo a era da energia inteligente</h2>
 
           <p>
             As redes inteligentes são um caminho sem volta, o desenvolvimento e

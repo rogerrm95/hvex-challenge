@@ -50,6 +50,18 @@ export const SectionContainer = styled.section`
     display: none;
   }
 
+  // SMALL DEVICES - MOBILE //
+  @media (max-width: 600) {
+    h1 {
+      font-size: ${(props) => props.theme.fontSizes.xl};
+      line-height: 160%;
+    }
+
+    p {
+      line-height: 160%;
+    }
+  }
+
   // TABLET //
   @media (min-width: 768px) {
     overflow: hidden;

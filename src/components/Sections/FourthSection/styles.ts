@@ -55,7 +55,7 @@ export const Content = styled.div`
 
     .badge-box {
       display: grid;
-      grid-template-columns: repeat(3, 140px);
+      grid-template-columns: repeat(2, 140px);
       gap: 1.5rem;
       place-items: center;
       margin-top: 2rem;
