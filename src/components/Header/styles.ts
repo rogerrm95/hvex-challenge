@@ -2,6 +2,7 @@ import styled, { keyframes } from 'styled-components'
 
 export const HeaderContainer = styled.header`
   position: fixed;
+  z-index: 999;
 
   display: flex;
   flex-direction: row;
