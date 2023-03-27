@@ -1,4 +1,5 @@
 import { CheckCircle } from '@phosphor-icons/react'
+import Image from 'next/image'
 import { ListItem } from '../../ListItem'
 import { Content, SectionContainer } from './styles'
 
@@ -50,10 +51,14 @@ export function FifthSection() {
           </ul>
         </article>
 
-        <img
+        <Image
           src="/assets/transformer.png"
           alt="Transformador com o OMNI Trafo"
           title="Transformador com o OMNI Trafo"
+          aria-label="Transformador com o OMNI Trafo"
+          width={700}
+          height={720}
+          quality={100}
         />
       </Content>
     </SectionContainer>

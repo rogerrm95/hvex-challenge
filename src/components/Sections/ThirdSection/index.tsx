@@ -1,4 +1,5 @@
 // Components //
+import Image from 'next/image'
 import { Card } from '../../Card'
 
 import { SectionContainer, Content } from './styles'
@@ -26,22 +27,50 @@ export function ThirdSection() {
 
         <div className="box-card">
           <Card>
-            <img src="/assets/renewable-energy.svg" alt="" />
+            <Image
+              src="/assets/renewable-energy.svg"
+              alt="Sistema de Proteção"
+              title="Sistema de Proteção"
+              aria-label="Sistema de Proteção"
+              width={120}
+              height={120}
+            />
             <p>Sistema de Proteção</p>
           </Card>
 
           <Card className="card">
-            <img src="/assets/surface.svg" alt="" />
+            <Image
+              src="/assets/surface.svg"
+              alt="Integração de dados"
+              title="Integração de dados"
+              aria-label="Integração de dados"
+              width={120}
+              height={120}
+            />
             <p>Integração de dados</p>
           </Card>
 
           <Card className="card">
-            <img src="/assets/electrical-assets.svg" alt="" />
+            <Image
+              src="/assets/electrical-assets.svg"
+              alt="Gestão de Ativos Elétricos"
+              title="Gestão de Ativos Elétricos"
+              aria-label="Gestão de Ativos Elétricos"
+              width={120}
+              height={120}
+            />
             <p>Gestão de Ativos Elétricos</p>
           </Card>
 
           <Card className="card">
-            <img src="/assets/smart-communication.svg" alt="" />
+            <Image
+              src="/assets/smart-communication.svg"
+              alt="Comunicação inteligente"
+              title="Comunicação inteligente"
+              aria-label="Comunicação inteligente"
+              width={120}
+              height={120}
+            />
             <p>Comunicação inteligente</p>
           </Card>
         </div>

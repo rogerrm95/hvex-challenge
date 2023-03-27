@@ -1,4 +1,7 @@
+import Image from 'next/image'
+// Components //
 import { Button } from '../../Button'
+
 import { SectionContainer } from './styles'
 
 export function FirstSection() {
@@ -22,11 +25,13 @@ export function FirstSection() {
           <Button variant="secondary">Quero mais informações</Button>
         </article>
 
-        <img
+        <Image
           src="/assets/devices.png"
           alt="Dispositivo"
           title="Dispositivo Omni Trafo"
           aria-label="Dispositivo Omni Trafo"
+          width={1000}
+          height={1000}
         />
       </div>
     </SectionContainer>

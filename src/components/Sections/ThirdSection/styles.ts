@@ -71,6 +71,10 @@ export const Content = styled.div`
     place-items: center;
 
     margin-bottom: 1.5rem;
+
+    img {
+      object-fit: contain;
+    }
   }
 
   // TABLET + //

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { BadgeItem } from '../../BadgeItem'
 import { SectionContainer, Content } from './styles'
 
@@ -5,11 +6,14 @@ export function FourthSection() {
   return (
     <SectionContainer>
       <Content>
-        <img
+        <Image
           src="/assets/devices.png"
           alt="Dispositivo"
           title="Dispositivo Omni Trafo"
           aria-label="Dispositivo Omni Trafo"
+          width={550}
+          height={780}
+          quality={100}
         />
 
         <article>

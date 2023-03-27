@@ -51,13 +51,15 @@ export const Content = styled.div`
   // VERIFICAR //
   & > img {
     display: none;
+    object-fit: contain;
   }
 
   // LAPTOP //
   @media (min-width: 996px) {
     & > img {
       display: block;
-      width: 450px;
+      max-width: 500px;
+      height: auto;
     }
 
     article {
@@ -73,7 +75,8 @@ export const Content = styled.div`
   @media (min-width: 1196px) {
     & > img {
       display: block;
-      width: 700px;
+      max-width: 700px;
+      height: auto;
     }
 
     article h2 {

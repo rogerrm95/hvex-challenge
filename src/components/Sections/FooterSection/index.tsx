@@ -4,6 +4,7 @@ import {
   LinkedinLogo,
   YoutubeLogo,
 } from '@phosphor-icons/react'
+import Image from 'next/image'
 import { FooterSectionContainer, Bottom, Top, Content } from './styles'
 
 export function FooterSection() {
@@ -11,7 +12,14 @@ export function FooterSection() {
     <FooterSectionContainer>
       <Content>
         <Top>
-          <img src="/assets/logo.svg" alt="" />
+          <Image
+            src="/assets/logo.svg"
+            alt="HVEX Logomarca"
+            title="VEX Logomarca"
+            width={123}
+            height={57}
+            quality={80}
+          />
 
           <address className="address">
             <h4>Endereço</h4>

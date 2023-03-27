@@ -77,7 +77,7 @@ export const Content = styled.div`
 
     & > img {
       display: block;
-      width: 400px;
+      max-width: 400px;
       height: auto;
       object-fit: contain;
       transform: scaleX(-1);
@@ -114,6 +114,10 @@ export const Content = styled.div`
       .badge-box {
         grid-template-columns: repeat(4, 140px);
       }
+    }
+
+    & > img {
+      max-width: 500px;
     }
   }
 `

@@ -1,5 +1,6 @@
 import { theme } from '@/src/styles/theme'
 import { CheckCircle } from '@phosphor-icons/react'
+import Image from 'next/image'
 
 import { ListItem } from '../../ListItem'
 
@@ -9,11 +10,14 @@ export function SecondSection() {
   return (
     <SectionContainer>
       <Content className="content">
-        <img
+        <Image
           src="/assets/energy.png"
           alt="Transformador"
           title="Transformador"
+          width={700}
+          height={800}
         />
+
         <article>
           <h2>
             Seja bem-vindo a era da <br />

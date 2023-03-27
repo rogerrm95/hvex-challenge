@@ -57,7 +57,8 @@ export const Content = styled.div`
   @media (min-width: 768px) {
     img {
       display: block;
-      width: 300px;
+      max-width: 300px;
+      height: auto;
     }
 
     article {
@@ -77,8 +78,7 @@ export const Content = styled.div`
   // LAPTOP //
   @media (min-width: 996px) {
     img {
-      width: 500px;
-      height: auto;
+      max-width: 500px;
       object-fit: cover;
     }
   }

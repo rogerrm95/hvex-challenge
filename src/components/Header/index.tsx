@@ -1,14 +1,21 @@
-import { HeaderContainer, DropdownButton, Navbar, MenuDropdown } from './styles'
-
-import { List } from '@phosphor-icons/react'
 import { useState } from 'react'
+import Image from 'next/image'
+import { List } from '@phosphor-icons/react'
+
+import { HeaderContainer, DropdownButton, Navbar, MenuDropdown } from './styles'
 
 export function Header() {
   const [hasDropdownMenuOpen, setHasDropdownMenuOpen] = useState(false)
 
   return (
     <HeaderContainer>
-      <img src="/assets/logo.svg" alt="Logo" title="HVEX" />
+      <Image
+        src="/assets/logo.svg"
+        alt="Logo"
+        title="HVEX"
+        width={123}
+        height={57}
+      />
       {/* MENU DROPDOWN - MOBILE */}
       <DropdownButton
         onClick={() => setHasDropdownMenuOpen(!hasDropdownMenuOpen)}

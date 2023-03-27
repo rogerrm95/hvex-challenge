@@ -1,8 +1,7 @@
 import styled, { keyframes } from 'styled-components'
 
 export const HeaderContainer = styled.header`
-  position: fixed;
-  z-index: 999;
+  position: sticky;
 
   display: flex;
   flex-direction: row;
