@@ -1,8 +1,10 @@
+import { WhatsappLogo } from '@phosphor-icons/react'
 import Image from 'next/image'
+
 // Components //
 import { Button } from '../../Button'
 
-import { SectionContainer } from './styles'
+import { SectionContainer, WhatsAppLink } from './styles'
 
 export function FirstSection() {
   return (
@@ -34,6 +36,14 @@ export function FirstSection() {
           height={1000}
         />
       </div>
+
+      <WhatsAppLink
+        href="/"
+        title="Entrar em contato pelo whatsapp"
+        className="whatsapp-link"
+      >
+        <WhatsappLogo size={30} weight="duotone" />
+      </WhatsAppLink>
     </SectionContainer>
   )
 }

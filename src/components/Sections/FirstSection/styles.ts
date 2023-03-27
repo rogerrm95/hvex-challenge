@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styled from 'styled-components'
 
 export const SectionContainer = styled.section`
@@ -7,6 +8,7 @@ export const SectionContainer = styled.section`
 
   display: flex;
   justify-content: center;
+  position: relative;
 
   .content {
     width: 100%;
@@ -92,6 +94,39 @@ export const SectionContainer = styled.section`
 
     p {
       font-size: ${(props) => props.theme.fontSizes.md};
+    }
+  }
+`
+
+export const WhatsAppLink = styled(Link)`
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  display: none;
+
+  // TABLET //
+  @media (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    background-color: ${(props) => props.theme.colors.blue200};
+    color: ${(props) => props.theme.colors.white};
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+    z-index: 99;
+
+    transition: all 0.3s;
+
+    :hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.75);
+      filter: brightness(0.85);
     }
   }
 `
