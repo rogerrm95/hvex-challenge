@@ -1,7 +1,7 @@
 import styled, { keyframes } from 'styled-components'
 
 export const HeaderContainer = styled.header`
-  position: sticky;
+  position: fixed;
 
   display: flex;
   flex-direction: row;
@@ -13,6 +13,7 @@ export const HeaderContainer = styled.header`
   width: 100%;
   padding: 1.5rem;
   background-color: ${(props) => props.theme.colors.blue900};
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
 
   & > button:last-of-type {
     width: 170px;
