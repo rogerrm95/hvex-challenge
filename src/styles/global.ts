@@ -23,7 +23,33 @@ export const GlobalStyles = createGlobalStyle`
         font: 400 1rem "Inter", sans-serif;
     }
 
+    h1 {
+        font-size: ${(props) => props.theme.fontSizes['2xl']};
+    }
+
+    h2{
+        font-size: ${(props) => props.theme.fontSizes.xl};
+    }
+
+    h3{
+        font-size: ${(props) => props.theme.fontSizes.lg};
+    }
+
     h4 {
         font-size: ${(props) => props.theme.fontSizes.md};
+    }
+
+    // LAPTOP //
+    @media (max-width: 996px) {
+        html {
+            font-size: 93.5%;
+        }
+    }
+
+    // TABLET //
+    @media (max-width: 768px) {
+        html {
+            font-size: 87.5%;
+        }
     }
 `

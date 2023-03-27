@@ -28,7 +28,6 @@ export const Content = styled.div`
 
     h2 {
       color: ${(props) => props.theme.colors.blue700};
-      font-size: ${(props) => props.theme.fontSizes.xl};
       text-align: center;
     }
 

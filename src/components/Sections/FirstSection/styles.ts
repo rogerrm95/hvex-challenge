@@ -29,16 +29,12 @@ export const SectionContainer = styled.section`
     gap: 1.5rem;
   }
 
-  h2,
+  h1,
   p {
     text-align: center;
     color: ${(props) => props.theme.colors.white};
-    line-height: 160%;
+    line-height: 140%;
     max-width: 90%;
-  }
-
-  h2 {
-    font-size: ${(props) => props.theme.fontSizes.xl};
   }
 
   p {
@@ -65,7 +61,7 @@ export const SectionContainer = styled.section`
       align-items: flex-start;
     }
 
-    h2,
+    h1,
     p {
       text-align: left;
     }

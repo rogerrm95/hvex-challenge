@@ -11,10 +11,10 @@ export function ThirdSection() {
         <article>
           <h2>Omni trafo</h2>
 
-          <h3>
-            É o dispositivo capaz de <br /> integrar os transformadores as redes
+          <h2>
+            É o dispositivo capaz de integrar os transformadores as redes
             inteligentes
-          </h3>
+          </h2>
 
           <p>
             O Omni Trafo envia informações em tempo real, permitindo a

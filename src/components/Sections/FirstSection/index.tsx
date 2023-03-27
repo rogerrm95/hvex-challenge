@@ -11,10 +11,10 @@ export function FirstSection() {
     <SectionContainer>
       <div className="content">
         <article>
-          <h2>
+          <h1>
             Tenha Informações em tempo real das condições dos ativos e com o
             monitoramento inteligente
-          </h2>
+          </h1>
 
           <p>
             Tenha acesso a informações em tempo real, administração remota de

@@ -26,18 +26,13 @@ export const Content = styled.div`
       text-align: center;
     }
 
-    h2,
-    h3 {
-      font-size: ${(props) => props.theme.fontSizes.xl};
-    }
-
     h2 {
       color: ${(props) => props.theme.colors.white};
       margin-bottom: 3rem;
       text-transform: uppercase;
     }
 
-    h3 {
+    h2 + h2 {
       color: ${(props) => props.theme.colors.blue200};
       margin-bottom: 1.5rem;
       font-size: ${(props) => props.theme.fontSizes.lg};
@@ -53,9 +48,9 @@ export const Content = styled.div`
     flex-direction: row;
 
     article {
-      h2,
-      h3 {
+      h2 {
         text-align: left;
+        max-width: 85%;
       }
       p {
         text-align: justify;

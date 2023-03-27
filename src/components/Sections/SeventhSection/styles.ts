@@ -20,10 +20,6 @@ export const Content = styled.div`
   align-items: center;
   gap: 3rem;
 
-  h2 {
-    font-size: ${(props) => props.theme.fontSizes.xl};
-  }
-
   .commom-questions {
     display: flex;
     flex-direction: column;

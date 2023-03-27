@@ -43,7 +43,6 @@ export const Content = styled.div`
     }
 
     h2 {
-      font-size: ${(props) => props.theme.fontSizes.xl};
       text-align: center;
     }
 

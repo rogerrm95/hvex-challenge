@@ -50,7 +50,7 @@ export const Top = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 2rem;
 
     h4,
     span {
@@ -59,6 +59,7 @@ export const Top = styled.div`
 
     h4 {
       color: ${(props) => props.theme.colors.blue100};
+      line-height: 0;
     }
 
     span {
