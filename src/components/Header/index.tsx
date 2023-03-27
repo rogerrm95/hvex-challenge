@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { List } from '@phosphor-icons/react'
 
 import { HeaderContainer, DropdownButton, Navbar, MenuDropdown } from './styles'
@@ -9,13 +10,15 @@ export function Header() {
 
   return (
     <HeaderContainer>
-      <Image
-        src="/assets/logo.svg"
-        alt="Logo"
-        title="HVEX"
-        width={123}
-        height={57}
-      />
+      <Link href="/" className="logo">
+        <Image
+          src="/assets/logo.svg"
+          alt="Logo"
+          title="HVEX"
+          width={123}
+          height={57}
+        />
+      </Link>
       {/* MENU DROPDOWN - MOBILE */}
       <DropdownButton
         onClick={() => setHasDropdownMenuOpen(!hasDropdownMenuOpen)}
@@ -24,19 +27,23 @@ export function Header() {
       </DropdownButton>
 
       <MenuDropdown hasDropdownMenuOpen={hasDropdownMenuOpen}>
-        <a href="/">Omni trafo</a>
-        <a href="/">Sinalizador de faltas</a>
-        <a href="/">Acoplador DP</a>
-        <button>Comprar agora</button>
+        <Link href="/omni-trafo">Omni trafo</Link>
+        <Link href="/sinalizador-de-faltas">Sinalizador de faltas</Link>
+        <Link href="/acoplador-dp">Acoplador DP</Link>
+        <Link href="/orcamento" as="button">
+          Comprar agora
+        </Link>
       </MenuDropdown>
 
       {/* NAVBAR - DESKTOP */}
       <Navbar>
-        <a href="">Omni trafo</a>
-        <a href="">Sinalizador de faltas</a>
-        <a href="">Acoplador DP</a>
+        <Link href="/omni-trafo">Omni trafo</Link>
+        <Link href="/sinalizador-de-faltas">Sinalizador de faltas</Link>
+        <Link href="/acoplador-dp">Acoplador DP</Link>
       </Navbar>
-      <button>Comprar agora</button>
+      <Link href="/orcamento" as="button">
+        Comprar agora
+      </Link>
     </HeaderContainer>
   )
 }

@@ -36,6 +36,7 @@ export const Top = styled.div`
 
   img {
     display: inline-block;
+    margin-bottom: 1rem;
   }
 
   address {
@@ -44,12 +45,12 @@ export const Top = styled.div`
 
   .address,
   .contact,
-  .social {
+  .social-medias {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 
     h4,
     span {
@@ -67,7 +68,7 @@ export const Top = styled.div`
     }
   }
 
-  .social {
+  .social-medias {
     div {
       display: flex;
       gap: 1rem;
@@ -96,11 +97,12 @@ export const Top = styled.div`
 
     img {
       align-self: flex-start;
+      margin: 0;
     }
 
     .address,
     .contact,
-    .social {
+    .social-medias {
       align-items: flex-start;
     }
 

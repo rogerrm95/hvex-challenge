@@ -38,7 +38,7 @@ export function FirstSection() {
       </div>
 
       <WhatsAppLink
-        href="/"
+        href="https://wa.me/553536222699"
         title="Entrar em contato pelo whatsapp"
         className="whatsapp-link"
       >

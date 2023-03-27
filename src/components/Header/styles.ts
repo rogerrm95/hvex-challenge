@@ -15,7 +15,16 @@ export const HeaderContainer = styled.header`
   background-color: ${(props) => props.theme.colors.blue900};
   box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
 
-  & > button:last-of-type {
+  .logo {
+    cursor: pointer;
+
+    img {
+      object-fit: contain;
+    }
+  }
+
+  // Comprar agora - Link //
+  & > a:last-of-type {
     width: 170px;
     margin: 0 auto;
 
@@ -50,6 +59,7 @@ export const HeaderContainer = styled.header`
     flex-wrap: nowrap;
   }
 `
+
 // MOBILE VERSION //
 export const DropdownButton = styled.button`
   display: flex;
@@ -82,6 +92,7 @@ export const DropdownButton = styled.button`
     display: none;
   }
 `
+
 interface MenuDropdownProps {
   hasDropdownMenuOpen: boolean
 }
@@ -135,7 +146,8 @@ export const MenuDropdown = styled.nav<MenuDropdownProps>`
     }
   }
 
-  button {
+  // Comprar agora - Link //
+  a:last-of-type {
     align-self: stretch;
     border: 1px solid ${(props) => props.theme.colors.blue200};
     color: ${(props) => props.theme.colors.blue200};
