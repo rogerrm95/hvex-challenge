@@ -5,7 +5,7 @@ import { ListItem } from '../../ListItem'
 
 import { SectionContainer, Content } from './styles'
 
-export function SmartEnergySection() {
+export function SecondSection() {
   return (
     <SectionContainer>
       <Content className="content">

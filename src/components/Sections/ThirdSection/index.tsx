@@ -1,9 +1,11 @@
+// Components //
 import { Card } from '../../Card'
-import { OmniTrafoContainer, Content } from './styles'
 
-export function OmniTrafoSection() {
+import { SectionContainer, Content } from './styles'
+
+export function ThirdSection() {
   return (
-    <OmniTrafoContainer>
+    <SectionContainer>
       <Content>
         <article>
           <h2>Omni trafo</h2>
@@ -44,6 +46,6 @@ export function OmniTrafoSection() {
           </Card>
         </div>
       </Content>
-    </OmniTrafoContainer>
+    </SectionContainer>
   )
 }

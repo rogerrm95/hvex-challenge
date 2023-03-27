@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const FifthSectionContainer = styled.section`
+export const SectionContainer = styled.section`
   background-color: ${(props) => props.theme.colors.gray100};
   padding: 1.5rem;
   min-height: 900px;

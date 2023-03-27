@@ -1,10 +1,10 @@
 import { QuestionItem } from '../../QuestionItem'
 
-import { SeventhSectionContainer, Content } from './styles'
+import { SectionContainer, Content } from './styles'
 
 export function SeventhSection() {
   return (
-    <SeventhSectionContainer>
+    <SectionContainer>
       <Content>
         <h2>Perguntas Frequentes</h2>
 
@@ -33,6 +33,6 @@ export function SeventhSection() {
           />
         </div>
       </Content>
-    </SeventhSectionContainer>
+    </SectionContainer>
   )
 }

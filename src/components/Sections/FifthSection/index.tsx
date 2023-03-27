@@ -1,10 +1,10 @@
 import { CheckCircle } from '@phosphor-icons/react'
 import { ListItem } from '../../ListItem'
-import { Content, FifthSectionContainer } from './styles'
+import { Content, SectionContainer } from './styles'
 
 export function FifthSection() {
   return (
-    <FifthSectionContainer>
+    <SectionContainer>
       <Content>
         <article>
           <h2>
@@ -56,6 +56,6 @@ export function FifthSection() {
           title="Transformador com o OMNI Trafo"
         />
       </Content>
-    </FifthSectionContainer>
+    </SectionContainer>
   )
 }

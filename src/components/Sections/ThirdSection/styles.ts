@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const OmniTrafoContainer = styled.section`
+export const SectionContainer = styled.section`
   background-color: ${(props) => props.theme.colors.blue800};
   padding: 1.5rem;
   min-height: 725px;

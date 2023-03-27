@@ -1,7 +1,7 @@
 import { Button } from '../../Button'
 import { SectionContainer } from './styles'
 
-export function HomeSection() {
+export function FirstSection() {
   return (
     <SectionContainer>
       <div className="content">

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const SeventhSectionContainer = styled.section`
+export const SectionContainer = styled.section`
   background-color: ${(props) => props.theme.colors.white};
   padding: 3rem 1.5rem;
 
