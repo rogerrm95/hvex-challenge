@@ -22,4 +22,8 @@ export const GlobalStyles = createGlobalStyle`
         all: unset;
         font: 400 1rem "Inter", sans-serif;
     }
+
+    h4 {
+        font-size: ${(props) => props.theme.fontSizes.md};
+    }
 `

@@ -1,5 +1,6 @@
 // Components //
 import { FifthSection } from '../components/Sections/FifthSection'
+import { FooterSection } from '../components/Sections/FooterSection'
 import { FourthSection } from '../components/Sections/FourthSection'
 import { HomeSection } from '../components/Sections/HomeSection'
 import { OmniTrafoSection } from '../components/Sections/OmniTrafoSection'
@@ -34,6 +35,7 @@ export default function Home() {
       <SeventhSection />
 
       {/* 8 - FOOTER */}
+      <FooterSection />
     </HomeContainer>
   )
 }
