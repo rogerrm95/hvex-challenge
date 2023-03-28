@@ -1,3 +1,5 @@
+import Head from 'next/head'
+
 // Components //
 import { FifthSection } from '../components/Sections/FifthSection'
 import { FourthSection } from '../components/Sections/FourthSection'
@@ -11,27 +13,33 @@ import { HomeContainer } from '../styles/pages/home'
 
 export default function Home() {
   return (
-    <HomeContainer>
-      {/* 1 - HOME */}
-      <FirstSection />
+    <>
+      <Head>
+        <title>HVEX - Home</title>
+      </Head>
 
-      {/* 2 - SMART ENERGY */}
-      <SecondSection />
+      <HomeContainer>
+        {/* 1 - HOME */}
+        <FirstSection />
 
-      {/* 3 - OMNI TRAFO #1 */}
-      <ThirdSection />
+        {/* 2 - SMART ENERGY */}
+        <SecondSection />
 
-      {/* 4 - OMINI TRAFO #2 */}
-      <FourthSection />
+        {/* 3 - OMNI TRAFO #1 */}
+        <ThirdSection />
 
-      {/* 5 - TRANSFORMER  */}
-      <FifthSection />
+        {/* 4 - OMINI TRAFO #2 */}
+        <FourthSection />
 
-      {/* 6 - TALK TO CONSULTER  */}
-      <SixthSection />
+        {/* 5 - TRANSFORMER  */}
+        <FifthSection />
 
-      {/* 7 - FAQ  */}
-      <SeventhSection />
-    </HomeContainer>
+        {/* 6 - TALK TO CONSULTER  */}
+        <SixthSection />
+
+        {/* 7 - FAQ  */}
+        <SeventhSection />
+      </HomeContainer>
+    </>
   )
 }

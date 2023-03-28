@@ -11,12 +11,12 @@ import { Footer } from '../components/Footer'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
+      <GlobalStyles />
       <AppContainer>
         <Header />
         <Component {...pageProps} />
         <Footer />
       </AppContainer>
-      <GlobalStyles />
     </ThemeProvider>
   )
 }
