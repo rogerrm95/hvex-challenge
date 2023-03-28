@@ -1,5 +1,5 @@
 <div align='center'>
-  <img src="./public/assets/lovo.svg" alt="Logo">
+  <img src="./public/assets/logo.svg" alt="Logo">
 </div>
 
 <h1 align='center'>
