@@ -14,8 +14,8 @@ HVEX - Teste Técnico 2023
 
 Esse projeto foi desenvolvido com as seguintes principais tecnologias:
 - [ReactJS](https://pt-br.reactjs.org/);
-- [Phosphor-Icons] (https://phosphoricons.com/);
-- [NextJS] (https://nextjs.org/);
+- [Phosphor-Icons](https://phosphoricons.com/);
+- [NextJS](https://nextjs.org/);
 - [Typescript](https://www.typescriptlang.org/);
 - [Styled Components](https://styled-components.com/);
 
